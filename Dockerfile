@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:7
 
 RUN apt-get update && apt-get install -y curl
 RUN curl -s "https://get.sdkman.io" | bash
